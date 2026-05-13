@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977159803476",
+    "project_id": "tercerproyectoex",
+    "storage_bucket": "tercerproyectoex.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977159803476:android:aa1e2c92b2840f6ba1d3c1",
+        "android_client_info": {
+          "package_name": "com.ejemploOrganization.second_appp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977159803476-oksbcqbeoft5r1drv18e2bvjn45c3nrf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmfxBPbPJN2cre3wsjdwEJWM1PYPUVhzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977159803476-oksbcqbeoft5r1drv18e2bvjn45c3nrf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
