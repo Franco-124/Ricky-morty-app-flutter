@@ -1,6 +1,6 @@
-import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'character.dart';
+import 'package:http/http.dart' as http;
+import '../models/character.dart';
 
 class CharacterService {
   static const String _baseUrl = 'https://rickandmortyapi.com/api/character';

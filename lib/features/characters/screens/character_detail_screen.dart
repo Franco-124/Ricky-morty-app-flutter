@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'character.dart';
-import 'app_theme.dart';
-import 'favorites_service.dart';
+import '../../../core/theme/app_theme.dart';
+import '../models/character.dart';
+import '../../favorites/services/favorites_service.dart';
 
 class CharacterDetailScreen extends StatefulWidget {
   final Character character;

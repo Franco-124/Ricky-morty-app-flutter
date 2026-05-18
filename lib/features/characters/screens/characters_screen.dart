@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'app_theme.dart';
-import 'character.dart';
-import 'character_card.dart';
+import '../../../core/theme/app_theme.dart';
+import '../models/character.dart';
+import '../services/character_service.dart';
+import '../widgets/character_card.dart';
 import 'character_detail_screen.dart';
-import 'character_service.dart';
 
 class CharactersScreen extends StatefulWidget {
   const CharactersScreen({super.key});
@@ -304,8 +304,7 @@ class _StatusChip extends StatelessWidget {
             label,
             style: TextStyle(
               color: selected ? chipColor : AppColors.textSecondary,
-              fontWeight:
-                  selected ? FontWeight.w600 : FontWeight.normal,
+              fontWeight: selected ? FontWeight.w600 : FontWeight.normal,
               fontSize: 13,
             ),
           ),

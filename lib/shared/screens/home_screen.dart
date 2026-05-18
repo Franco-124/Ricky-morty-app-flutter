@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'characters_screen.dart';
-import 'favorites_screen.dart';
-import 'login_screen.dart';
-import 'app_theme.dart';
+import '../../core/theme/app_theme.dart';
+import '../../features/auth/screens/login_screen.dart';
+import '../../features/characters/screens/characters_screen.dart';
+import '../../features/favorites/screens/favorites_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
